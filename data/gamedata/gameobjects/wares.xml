@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Wares.xml,v 1.22 2005/11/28 07:43:58 anton Exp $
+-->
+
+<Prototypes>
+	<Prototype
+		Class		= "Ware"
+		Name		= "potato"
+		Price	= "100"
+		Durability	= "100"
+		PriceDispersion      = "10"
+		ModelFile	= "potatoe"
+		ResourceType= "POTATO" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "scrap_metal"
+		Price	= "250"
+		Durability	= "100"
+		PriceDispersion      = "7"
+		ModelFile	= "lom"
+		ResourceType= "SCRAP_METAL" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "firewood"
+		Price	= "140"
+		Durability	= "90"
+		PriceDispersion      = "10"
+		ModelFile	= "koroldrov"
+		ResourceType= "FIREWOOD" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "oil"
+		Price	= "550"
+		Durability	= "70"
+		PriceDispersion      = "10"
+		ModelFile	= "back_exp"
+		ResourceType= "OIL" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "bottle"
+		Price	= "4250"
+		Durability	= "10"
+		PriceDispersion      = "7"
+		ModelFile	= "bottles"
+		ResourceType= "BOTTLE" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "fuel"
+		Price	= "1150"
+		Durability	= "50"
+		PriceDispersion      = "7"
+		ModelFile	= "kanistr"
+		ResourceType= "FUEL" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "machinery"
+		Price	= "2200"
+		Durability	= "30"
+		PriceDispersion      = "5"
+		ModelFile	= "rabochee_oborudovanie"
+		ResourceType= "MACHINERY" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "tobacco"
+		Price	= "8100"
+		Durability	= "70"
+		PriceDispersion      = "5"
+		ModelFile	= "tobacco"
+		ResourceType= "TOBACCO" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "book"
+		Price	= "15500"
+		Durability	= "90"
+		PriceDispersion      = "5"
+		ModelFile	= "books"
+		ResourceType= "BOOK" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "electronics"
+		Price	= "30000"
+		Durability	= "20"
+		PriceDispersion      = "5"
+		ModelFile	= "mikro"
+		ResourceType= "ELECTRONICS" />
+
+</Prototypes>

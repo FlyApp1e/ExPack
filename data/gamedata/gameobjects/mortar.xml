@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Mortar.xml,v 1.13 2005/10/25 09:54:48 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class			= "MortarShell"
+		Name			= "someMortarShell"			
+		Velocity		= "700"
+		Acceleration		= "1000"
+
+		ModelFile		= "shell01"
+		ExplosionType		= "GRENADE" 
+		Price			= "200"		
+		FlyTime			= "100"
+		BlastWavePrototype      = "smallBlastWave"
+
+		TimeForActivation	= "14"
+
+		Size			= "0.2 0.2 0.2"
+	/>
+	<Prototype
+
+		Class			= "MortarShell"
+		Name			= "someMortarShell02"			
+		Velocity		= "700"
+		Acceleration		= "1000"
+
+		ModelFile		= "shell01"
+		ExplosionType		= "GRENADE" 
+		Price			= "150"		
+		FlyTime			= "100"
+		BlastWavePrototype      = "smallBlastWave"
+		TimeForActivation	= "14"
+
+		Size			= "0.2 0.2 0.2"
+
+	/>
+	<Prototype
+		Class			= "MortarShell"
+		Name			= "marsMortarShell"			
+
+		ModelFile		= "shell01"
+		ExplosionType		= "GRENADE" 
+		Price			= "3000"
+		FlyTime			= "100"
+
+		Size			= "0.5 0.5 1"
+		BlastWavePrototype      = "smallBlastWave"
+
+	/>
+	
+</Prototypes>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+<!-- ’гв ваЁЈЈҐа  -->
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			AllowSave(false)
+			SetVar("AutoSaveCount", 0)
+			SetRadarUpgrade(0)
+			
+			CreateNewDummyObject( "metal_plate1", "gt01", -1, -1, CVector(221.715, 257.498, 345.665), Quaternion(0.5168, -0.4830, 0.5248, 0.4736) )
+			CreateNewDummyObject( "metal_plate1", "gt02", -1, -1, CVector(221.540, 257.476, 355.732), Quaternion(0.5168, -0.4830, 0.5248, 0.4736) )
+			CreateNewDummyObject( "metal_plate1", "gt03", -1, -1, CVector(221.365, 257.454, 365.799), Quaternion(0.5168, -0.4830, 0.5248, 0.4736) )
+			TActivate("trGenDestroyed")
+			TActivate("trSpawn01")
+			TActivate("trSpawn02")
+			TActivate("trSpawn03")
+			TActivate("trSpawn04")
+			TActivate("trSpawn05")
+			TActivate("trSpawn06")
+			TActivate("trCoreDestroyed")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trGenDestroyed" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="energy_pylon_small26" />
+		<event eventid="GE_OBJECT_DIE" ObjName="energy_pylon_small27" />
+		<event eventid="GE_OBJECT_DIE" ObjName="energy_pylon_small28" />
+		<event eventid="GE_OBJECT_DIE" ObjName="energy_pylon_small29" />
+		<event eventid="GE_OBJECT_DIE" ObjName="energy_pylon_small30" />
+		<event eventid="GE_OBJECT_DIE" ObjName="energy_pylon_small31" />
+		<script>
+			trigger:IncCount()
+			local count = trigger:GetCount()
+			if 6>count then
+			return
+			end
+			CompleteQuest("GenDestroy_Quest")
+			TakeQuest("CoreDestroy_Quest")
+			TActivate("cinGenDestroyedFly")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<!-- Spawn-->
+
+	<trigger Name="trSpawn01" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="trigSpawn1_loc" />
+		<script>
+			TeamCreate("Defenders01",1022,CVector(393.984, 275.429, 179.380),{"robot_def01","robot_def01"},CVector(281.986, 259.075, 162.833), 0)
+		</script>
+	</trigger>
+	<trigger Name="trSpawn02" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="trigSpawn2_loc" />
+		<script>
+			TeamCreate("Defenders02",1022,CVector(324.139, 268.188, 347.546),{"robot_def01"},CVector(382.836, 267.934, 287.918),0)
+			TeamCreate("Defenders02_2",1022,CVector(400.925, 265.469, 415.609),{"robot_def01"},CVector(382.836, 267.934, 287.918), 0)
+		</script>
+	</trigger>
+	<trigger Name="trSpawn03" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="trigSpawn3_loc" />
+		<script>
+			TeamCreate("Defenders03",1022,CVector(256.189, 263.237, 344.539),{"robot_def02"},CVector(315.489, 257.932, 352.366), 0)
+		</script>
+	</trigger>
+	<trigger Name="trSpawn04" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="trigSpawn4_loc" />
+		<script>
+			TeamCreate("Defenders04",1022,CVector(317.679, 264.741, 262.095),{"robot_def01"},CVector(317.679, 264.741, 262.095), 0)
+		</script>
+	</trigger>
+	<trigger Name="trSpawn05" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="trigSpawn5_loc" />
+		<script>
+			TeamCreate("Defenders05",1022,CVector(97.365, 262.556, 424.613),{"robot_def02","robot_def01"},CVector(165.687, 266.808, 433.519), 0)
+		</script>
+	</trigger>
+	<trigger Name="trSpawn06" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="trigSpawn6_loc" />
+		<script>
+			TeamCreate("Defenders06",1022,CVector(113.210, 263.525, 371.776),{"robot_def02"},nil, 0)
+		</script>
+	</trigger>
+	<!-- Spawn end-->
+
+	<trigger Name="trCoreDestroyed" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="energy_core" />
+		<script>
+			CompleteQuest("CoreDestroy_Quest")
+			TakeQuest("CaveBack_Quest")
+			TDeactivate("trSpawn01")
+			TDeactivate("trSpawn02")
+			TDeactivate("trSpawn03")
+			TDeactivate("trSpawn04")
+			TDeactivate("trSpawn05")
+			TDeactivate("trSpawn06")
+			TActivate("trRunAway")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trRunAway" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="back_loc" />
+		<script>
+			
+			CreateNewDummyObject( "dweller", "Druid1", -1, -1, CVector(107.827, 255.111, 132.116), Quaternion(-0.6881, -0.0179, -0.0191, 0.7251), 0)
+
+			getObj("Druid1"):SetNodeAction(AT_STAND1)
+			getObj("Druid1"):SetNextForAnimation(AT_STAND1, -1)
+			local Plf = GetPlayerVehicle()
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+			PlayCustomMusic("Sadness1")
+			Fly("dead_body", CINEMATIC_NO_AIM, 0, 17, 1, 1 )
+			StartCinematic()
+
+			AddCinematicMessage( 12, 1 )
+			AddCinematicMessage( 13, 1 )
+			TActivate("cinRunAway")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinRunAway" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			AddQuestItem("Dead_druid_P")
+			SetCameraBehindPlayerVehicle()
+			getObj("Druid1"):Remove()
+			StopPlayingCustomMusic()
+			TActivate("ToR3M2")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger Name="ToR3M2" active="0">
+		<event timeout="2" eventid="GE_TIME_PERIOD" />
+		<script>
+			AllowSave(true)
+			SetRadarUpgrade(1)
+			PassToMap("r3m2","cave_loc", -1)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

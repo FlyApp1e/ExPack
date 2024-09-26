@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<!-- Подъезжаем к СО и уезжаем от них -->
+	<Path	Name="OralceDef_Path1">
+		<Point  coord="-18.259 7.536 -12.007" rotation="-0.051 -0.474 0.027 0.879"/>
+	</Path>
+
+	<!-- Игрок подъехал к логову Монстра -->
+	<Path	Name="NearMonster_Path1">
+		<Point  coord="1217.036 344.442 1394.113" rotation="-0.022 -0.691 0.021 0.723"/>
+		<Point  coord="1251.963 361.107 1400.104" rotation="-0.096 -0.731 0.105 0.668"/>
+		<Point  coord="1293.338 357.723 1405.158" rotation="-0.121 -0.790 0.165 0.578"/>
+	</Path>
+
+	<!-- Ролик при каждом подъезде к Оракулу -->
+	<Path Name = "OraclePriezdCam1">
+		<Point  coord="750.608 280.495 3124.189" rotation="-0.056 -0.455 0.029 0.888"/>
+		<Point  coord="750.608 285.110 3124.189" rotation="-0.056 -0.455 0.029 0.888"/>
+	</Path>
+
+	<Path Name = "OraclePriezdCam2">
+		<Point  coord="698.420 268.589 3228.745" rotation="0.012 0.324 0.004 0.946"/>
+		<Point  coord="698.420 268.589 3228.745" rotation="0.150 0.331 0.053 0.930"/>
+	</Path>
+
+	<Path Name = "OraclePriezdCam3">
+		<Point  coord="680.829 274.750 3243.671" rotation="0.023 0.902 -0.047 -0.429"/>
+		<Point  coord="686.094 274.750 3247.456" rotation="0.021 0.958 -0.072 -0.278"/>
+	</Path>
+
+	<!-- Игрок приехал на завод -->
+	<Path	Name="WentFactory_Path2">
+		<Point  coord="2661.054 281.217 2570.972" rotation="-0.056 -0.574 0.040 0.816"/>
+		<Point  coord="2661.054 281.217 2570.972" rotation="-0.051 0.210 -0.011 0.976"/>
+	</Path>
+
+	<Path	Name="WentFactory_Path3">
+		<Point  coord="2388.535 263 2862.810" rotation="-0.011 -0.805 0.015 0.593"/>
+		<Point  coord="2377.732 263 2843.083" rotation="0.002 0.969 -0.009 -0.248"/>
+		<Point  coord="2386.905 263 2757.163" rotation="0.003 0.988 -0.020 -0.151"/>
+	</Path>
+
+	<!-- Запрет проезда на завод, если игрок не на Скауте ИЛИ артефакты уже собраны -->
+	<Path	Name="WentFactory_TurnAround">
+		<Point  coord="2390.022 267.209 2762.925" rotation="-0.004 -0.077 0.000 0.997"/>
+		<Point  coord="2386.720 265.756 2723.875" rotation="-0.052 -0.047 0.002 0.998"/>
+	</Path>
+
+	<Path	Name="WentFactory_TurnAround2">
+		<Point  coord="2411.161 271.096 2854.087" rotation="-0.017 0.983 -0.133 0.128"/>
+		<Point  coord="2404.292 268.604 2825.461" rotation="-0.005 0.993 -0.045 0.107"/>
+	</Path>
+
+	<!-- Самая первая катсцена смены авто -->
+	<Path	Name="Garage_Path_First">
+		<Point  coord="2727.606 271.495 2132.884" rotation="0.054 0.894 -0.113 -0.429"/>
+		<Point  coord="2759.767 268.007 2108.750" rotation="0.023 0.869 -0.040 -0.492"/>
+		<Point  coord="2764.609 274.116 2077.629" rotation="-0.142 -0.533 0.091 0.829"/>
+	</Path>
+
+	<!-- Последующие смены машины -->
+	<Path	Name="Garage_Path">
+		<Point	coord="-17.056 11.513 22.167"	rotation="0.058 0.930 -0.169 -0.320"/>
+	</Path>
+
+	<!-- Общая катсцена для подбора артефактов -->
+	<Path Name = "ArtefactVTvoemANUSE">
+		<Point  coord="2723.903 267.772 3115.000" rotation="-0.087 -0.480 0.048 0.872"/>
+		<Point  coord="2729.490 266.448 3118.536" rotation="-0.118 -0.493 0.068 0.859"/>
+	</Path>
+
+	<Path Name = "ArtefactVTvoemANUSE3">
+		<Point  coord="2911.094 273.492 3077.411" rotation="0.054 0.941 -0.180 -0.280"/>
+		<Point  coord="2918.200 268.297 3066.440" rotation="0.053 0.943 -0.183 -0.274"/>
+	</Path>
+
+	<Path Name = "ArtefactVTvoemANUSE4">
+		<Point  coord="3104.147 280.447 3490.522" rotation="-0.258 -0.662 0.261 0.654"/>
+		<Point  coord="3113.211 272.002 3490.409" rotation="-0.258 -0.662 0.261 0.654"/>
+	</Path>
+	
+	<Path Name = "ArtefactVTvoemANUSE2">
+		<Point  coord="3116.397 261.686 3280.927" rotation="-0.078 -0.302 0.025 0.950"/>
+		<Point  coord="3119.445 260.810 3285.227" rotation="-0.078 -0.302 0.025 0.950"/>
+	</Path>
+
+	<!-- Первая менгира -->
+	<Path Name = "VK1_path">
+		<Point  coord="1817.939 289.332 3142.412" rotation="0.069 -0.658 -0.060 0.747"/>
+		<Point  coord="1821.299 289.958 3142.842" rotation="0.147 -0.656 -0.133 0.728"/>
+	</Path>
+
+	<!-- Вторая менгира -->
+	<Path Name = "VK2_path">
+		<Point  coord="681.373 269.911 1837.854" rotation="0.201 -0.005 -0.001 0.980"/>
+		<Point  coord="681.191 268.408 1830.582" rotation="0.102 -0.013 -0.001 0.995"/>
+	</Path>
+
+	<!-- Третья менгира и наезд СО -->
+	<Path Name = "3rdHelper">
+		<Point  coord="1222.667 336.873 1091.980" rotation="-0.018 0.016 -0.000 1.000"/>
+		<Point  coord="1222.097 336.223 1110.271" rotation="-0.018 0.016 -0.000 1.000"/>
+	</Path>
+
+	<Path Name = "FanatikPriehal2">
+		<Point  coord="1153.341 314.182 1149.320" rotation="-0.031 -0.574 0.022 0.818"/>
+		<Point  coord="1186.706 308.622 1167.709" rotation="-0.061 -0.369 0.024 0.927"/>
+	</Path>
+
+	<!-- Осмотр поля Друида -->
+	<Path Name = "Pole1">
+		<Point  coord="3506.452 279.269 849.859" rotation="-0.002 -0.061 0.000 0.998"/>
+		<Point  coord="3512.257 279.338 914.331" rotation="0.007 -0.005 -0.000 1.000"/>
+		<Point  coord="3503.500 279.627 1020.340" rotation="-0.015 0.119 -0.002 0.993"/>
+		<Point  coord="3475.325 279.837 1024.593" rotation="-0.031 0.683 -0.029 0.729"/>
+		<Point  coord="3354.647 280.962 1023.214" rotation="-0.045 0.672 -0.041 0.738"/>
+		<Point  coord="3339.435 279.269 1038.905" rotation="-0.032 -0.007 0.000 0.999"/>
+		<Point  coord="3336.855 280.031 1126.177" rotation="0.004 0.028 0.000 1.000"/>
+	</Path>
+
+	<Path Name = "Pole2">
+		<Point  coord="3336.855 280.031 1126.177" rotation="0.004 0.028 0.000 1.000"/>
+		<Point  coord="3315.783 350.974 1131.186" rotation="-0.205 -0.676 0.205 0.677"/>
+		<Point  coord="3376.546 525.728 1124.426" rotation="-0.424 -0.568 0.431 0.558"/>
+	</Path>
+	
+	
+	
+	<Path Name = "OldTown_flypath">
+		<Point  coord="698.372 367.709 275.945" rotation="-0.044 0.683 -0.041 0.728"/>
+		<Point  coord="529.862 363.607 283.915" rotation="-0.006 0.696 -0.006 0.718"/>
+		<Point  coord="284.897 361.065 274.682" rotation="-0.000 -0.005 0.000 1.000"/>
+		<Point  coord="285.382 362.460 427.464" rotation="-0.048 -0.029 0.001 0.998"/>
+		<Point  coord="277.465 400.289 581.815" rotation="0.042 0.927 -0.110 -0.355"/>
+		<Point  coord="518.722 437.620 573.579" rotation="-0.080 0.898 -0.184 0.391"/>
+		<Point  coord="591.335 437.620 403.768" rotation="-0.144 0.696 -0.145 0.688"/>
+		<Point  coord="432.106 369.741 402.621" rotation="-0.119 0.701 -0.120 0.693"/>	
+	</Path>
+
+	<Path Name = "CaveBoom_flypath_first">
+		<Point  coord="1814.306 292.847 2727.160" rotation="-0.127 -0.351 0.048 0.926"/>
+		<Point  coord="1828.740 287.100 2786.529" rotation="-0.039 -0.639 0.033 0.768"/>
+		<Point  coord="1851.215 287.427 2857.887" rotation="0.017 0.921 -0.040 -0.386"/>
+		<Point  coord="1886.785 281.825 2803.475" rotation="-0.025 -0.856 0.041 0.514"/>
+	</Path>
+
+	<Path Name = "CaveBoom_flypath_second">
+		<Point  coord="1886.785 281.825 2803.475" rotation="-0.025 -0.856 0.041 0.514"/>
+		<Point  coord="1884.881 288.725 2804.258" rotation="-0.052 -0.833 0.080 0.544"/>
+		<Point  coord="1881.639 299.589 2805.446" rotation="-0.081 -0.830 0.125 0.537"/>
+	</Path>
+
+	<Path Name = "CaveFound_flypath_first">
+		<Point  coord="3009.359 271.036 2568.622" rotation="-0.076 0.492 -0.043 0.866"/>
+		<Point  coord="2970.266 268.782 2618.558" rotation="-0.054 0.940 -0.177 0.287"/>
+		<Point  coord="2989.367 270.888 2579.892" rotation="-0.143 0.482 -0.080 0.861"/>
+	</Path>
+
+	<Path Name = "CaveFound_flypath_second">
+		<Point  coord="2961.254 285.556 2651.762" rotation="-0.001 0.975 -0.222 0.005"/>
+		<Point  coord="2981.670 282.302 2597.194" rotation="-0.113 -0.393 0.049 0.911"/>
+		<Point  coord="3046.745 273.593 2636.744" rotation="-0.153 -0.358 0.060 0.919"/>
+		<Point  coord="3084.892 255.552 2667.212" rotation="-0.157 -0.254 0.042 0.953"/>
+	</Path>
+
+	<Path Name = "BadRobot_flypath">
+		<Point  coord="739.650 416.267 583.633" rotation="-0.046 0.861 -0.079 0.500"/>
+		<Point  coord="543.745 418.186 569.486" rotation="-0.020 0.963 -0.075 0.256"/>
+		<Point  coord="410.309 399.806 513.418" rotation="-0.014 0.984 -0.150 0.094"/>
+		<Point  coord="387.028 362.134 386.735" rotation="-0.013 0.980 -0.189 0.065"/>
+	</Path>
+
+</Paths>

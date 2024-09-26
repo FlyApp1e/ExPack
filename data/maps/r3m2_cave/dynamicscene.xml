@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="39">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player">
+		<Object
+			Name="MyCar"
+			Belong="1100"
+			Prototype="ArcadeScout01"
+			Pos="112.345 255.500 134.270"
+			Rot="0.007 0.335 -0.010 -0.942">
+			<Parts />
+
+			<Repository />
+		</Object>
+	</Object>
+
+	<Object
+		Flags="21"
+		Name="base_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="243.663 255.000 265.348"
+		Radius="300.000" />
+
+	<Object
+		Name="energy_core"
+		Belong="1022"
+		Prototype="energy_pylon"
+		Pos="210.887 275.806 265.732">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot12"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="317.420 263.584 150.053">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot13"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="202.054 262.538 179.769">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot14"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="370.832 255.000 197.902">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot15"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="365.313 272.161 114.192">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot16"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="370.038 265.151 299.124">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot17"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="394.032 255.000 269.736">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot18"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="340.087 255.000 370.473">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot19"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="298.702 255.000 391.995">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot20"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="210.762 255.000 333.540">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot21"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="209.387 255.000 378.034">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot22"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="124.267 255.000 387.456">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot23"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="156.734 255.000 401.334">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot24"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="365.224 255.000 155.512">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="robots_dot25"
+		Belong="1022"
+		Prototype="robots_dot"
+		Pos="363.090 258.046 222.694">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="energy_pylon_small26"
+		Belong="1022"
+		Prototype="energy_pylon_small"
+		Pos="254.166 255.000 229.625">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="energy_pylon_small27"
+		Belong="1022"
+		Prototype="energy_pylon_small"
+		Pos="278.084 255.148 422.353">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="energy_pylon_small28"
+		Belong="1022"
+		Prototype="energy_pylon_small"
+		Pos="356.686 255.000 236.231"
+		Rot="-0.007 0.033 0.000 0.999">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="energy_pylon_small29"
+		Belong="1022"
+		Prototype="energy_pylon_small"
+		Pos="352.497 278.607 440.911">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="energy_pylon_small30"
+		Belong="1022"
+		Prototype="energy_pylon_small"
+		Pos="404.715 272.858 277.086">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="energy_pylon_small31"
+		Belong="1022"
+		Prototype="energy_pylon_small"
+		Pos="366.335 264.622 165.481">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="trigSpawn1_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="242.725 255.000 188.896"
+		Radius="20.000"
+		LookingTimeOut="15.000" />
+
+	<Object
+		Name="trigSpawn2_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="379.479 255.000 289.446"
+		Radius="15.000"
+		LookingTimeOut="15.000" />
+
+	<Object
+		Name="trigSpawn3_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="278.869 255.000 401.157"
+		Radius="10.000"
+		LookingTimeOut="15.000" />
+
+	<Object
+		Name="trigSpawn4_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="264.406 255.000 236.250"
+		Radius="10.000"
+		LookingTimeOut="15.000" />
+
+	<Object
+		Name="trigSpawn5_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="215.509 255.000 354.672"
+		Radius="13.000"
+		LookingTimeOut="15.000" />
+
+	<Object
+		Name="trigSpawn6_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="152.233 255.000 431.793"
+		Radius="10.000"
+		LookingTimeOut="15.000" />
+
+	<Object
+		Name="back_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="114.640 255.000 142.902"
+		Radius="20.000" />
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+</DynamicScene>

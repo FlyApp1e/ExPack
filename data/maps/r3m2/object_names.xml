@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="OracleDefendersVil"
+		FullName="АПУЛЬКО" />
+
+	<Object
+		Name="OracleDefendersVil_Shop"
+		FullName="Лавка вора" />
+
+	<Object
+		Name="OracleDefendersVil_WorkShop"
+		FullName="Инвалид - ремонтник" />
+
+	<Object
+		Name="AloneDruid"
+		FullName="Одинокий Друид" />
+
+	<Object
+		Name="AloneDruidBuilding"
+		FullName="Хижина друида" />
+	
+	<Object
+		Name="AloneDruid_Bar"
+		FullName="Беседка возле хижины" />
+
+	<Object
+		Name="NearOraculBuilding"
+		FullName="Пост стражей Оракула" />
+
+	<Object
+		Name="ToR3M1"
+		FullName="Выезд в Рощу друидов" />
+
+	<Object
+		Name="Monster_loc"
+		FullName="Страшный монстр" />
+
+	<Object
+		Name="VK1_loc"
+		FullName="Вычислительный комплекс 1" />
+
+	<Object
+		Name="VK2_loc"
+		FullName="Вычислительный комплекс 2" />
+
+	<Object
+		Name="VK3_loc"
+		FullName="Вычислительный комплекс 3" />
+
+	<Object
+		Name="Factory_loc"
+		FullName="Заброшенный завод" />
+
+	<Object
+		Name="Oracle_loc"
+		FullName="ОРАКУЛ" />
+
+	<Object
+		Name="OracleNPC"
+		FullName="Оракул" />
+
+	<Object
+		Name="OracleGuardian_1"
+		FullName="Защитник Оракула" />
+
+	<Object
+		Name="OracleGuardian_2"
+		FullName="Защитник Оракула" />
+
+	<Object
+		Name="AloneDruid_Workshop"
+		FullName="Мастерская друида" />
+
+	<Object
+		Name="heavy_dot3_vulcan1"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_kord2"
+		FullName="Дот" />
+
+	<Object
+		Name="urod1"
+		FullName="Тидус" />
+
+	<Object
+		Name="urod2"
+		FullName="Микко" />
+
+	<Object
+		Name="urod3"
+		FullName="Борг" />
+
+	<Object
+		Name="urod4"
+		FullName="Алекс" />
+
+	<Object
+		Name="urod5"
+		FullName="Скорп" />
+
+	<Object
+		Name="urod6"
+		FullName="Гайя" />
+
+	<Object
+		Name="urod7"
+		FullName="Шерман" />
+
+	<Object
+		Name="urod8"
+		FullName="Хррр" />
+
+	<Object
+		Name="urod9"
+		FullName="Дядя Фу" />
+
+	<Object
+		Name="NearOracul_Bar"
+		FullName="Охранный пост" />
+
+	<Object
+		Name="Kartograph1"
+		FullName="Картограф" />
+
+	<Object
+		Name="r3m2_OracleComplex_1"
+		FullName="Научный комплекс Оракула" />
+
+	<Object
+		Name="Renegades_vill"
+		FullName="Эдбург" />
+
+	<Object
+		Name="Headman"
+		FullName="Староста Том" />	
+
+	<Object
+		Name="Renegades_vill_Bar"
+		FullName="Паб" />
+
+	<Object
+		Name="Renegades_vill_Bar_Barman"
+		FullName="Бармен Дункан" />	
+		
+	<Object
+		Name="Crazy_friend"
+		FullName="Кальт" />	
+
+	<Object
+		Name="Renegades_vill_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Renegades_vill_Shop"
+		FullName="Рынок" />	
+
+	<Object
+		Name="PetrolStation_r3"
+		FullName="Заправка" />	
+	<Object
+		Name="PetrolStation_r3_Workshop"
+		FullName="Мастерская" />	
+	<Object
+		Name="PetrolStation_r3_Bar"
+		FullName="Дом друида" />	
+	<Object
+		Name="FuelDruid"
+		FullName="Отшельник" />	
+	<Object
+		Name="Seekers"
+		FullName="Лагерь у завода" />	
+	<Object
+		Name="Seekers_Workshop"
+		FullName="Мастерская" />
+	<Object
+		Name="Seekers_Bar"
+		FullName="Хижина исследователей" />	
+	<Object
+		Name="Seeker"
+		FullName="Друид исследователь" />
+
+	<Object
+		Name="Luis"
+		FullName="Луис" />					
+</ObjectNames>
