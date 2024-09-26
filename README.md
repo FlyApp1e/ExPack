@@ -8,5 +8,5 @@
 * [EMCP v1.2.0 release [build 240423b]](https://github.com/lineisover/ExtraMachinesCP)
 * [Different Things 1.3.3](https://github.com/MrKarfen/Different-Things)
 
-В модпаке также частично используються файлы из других модов:
+В модпаке также частично используются файлы из других модов:
 * [Absque Nota](https://www.moddb.com/mods/absquenota/downloads/beta-075)
